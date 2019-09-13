@@ -1,0 +1,44 @@
+.main-section__banner {
+    height: 200px;
+    width: 100vw;
+    background-image: url(../images/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    //align-items: center;
+}
+
+.button-blue {
+    background-color: $blue;
+}
+.button-red {
+    background-color: $red;
+}
+//Normal Size Image Perfil
+.main-section__image {
+    width: 80px;
+    margin: 0 auto;
+    padding: 10px;
+    .margen {
+        margin-top: -20px;
+    }
+}
+
+//Small Size Image
+@media (min-width: 576px) { 
+.main-section__image {
+    width: 100px;
+    margin: 0 auto;
+
+    }
+.main-seccion__profile  {
+    align-items: center;
+ }
+}

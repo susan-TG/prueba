@@ -1,0 +1,21 @@
+
+//Nav small
+
+  .nav {
+    display: none;
+  }
+  p {
+    font-weight: $font-light;
+    font-size: $x-small;
+  }
+//Nav medium
+  @include media-breakpoint-up(md) {
+    i {
+      display: flex;
+      padding: 0 1em;
+    }
+  }
+//Nav color icons
+.nav-link i {
+    color: #121619;
+}
