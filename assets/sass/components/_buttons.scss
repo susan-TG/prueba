@@ -3,22 +3,19 @@
 
 //Base
 .button {
-    padding: 16px 26px;
-    font-family: $roboto;
-    font-size: $medium;
-    font-weight: $font-light;
+    padding: 10px 12px;
+  
 }
 //Button Scheme
 .button-blue, .button-red {
-    color: $white;
+ 
     border-radius: 0;
     border: 0;
 
     &:hover {
-        background-color: $platinum;
+       
     }
     &:focus {
-        border-color: 20px solid $platinum;
-        background-color: $nickel;
+        
     }
 }

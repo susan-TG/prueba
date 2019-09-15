@@ -1,0 +1,33 @@
+.hero-section {
+    background-image: url('../images/bg-hero.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: span 12;
+ }
+ 
+ .hero-section__content {
+     grid-column-start: 3;
+     grid-column-end: 6;
+ } 
+
+
+ .info-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: span 12;
+ }
+
+.info-section__title {
+    text-align: center;
+}
+.info-section__image {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+.info-section__content {
+    grid-column-start: 6;
+    grid-column-end: 9;
+}

@@ -2,14 +2,34 @@
 
 // Primer esquema de color
 $white: #FFF;
-$medium-gray: #2D3047;
-$dark-gray: #071013;
-$light-green: #7CEA9C;
+$platinum: #E8E8E8;
+$gray: #BABABA;
 
+// Segundo esquema de color
+$dark-salmon: #EE9480;
+$melon: #F4BAAE;
+$pale-pink: #FADFDA;
+
+
+// Tercero esquema de color
+$ball-blue: #2AB7CA;
+$middle-blue: #77D1DD;
+$blue-lagoon: #B1E4EB;
+
+// Cuarto esquema de color
+$onix: #333745;
+$spanish-gray: #8F9199;
+$lavender-gray: rgb(0, 0, 0);
+
+
+// Quinto esquema de color
+$raisin-black: #221D23;
+$nickel: #726F73;
+$silver-chalice: #AEACAF;
 
 // Tipografia
-$playfair: 'Playfair Display', serif;
-$roboto: 'Roboto', sans-serif;
+$raleway: 'Raleway', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
 // Peso de fuentes 
 $font-black: 900;
@@ -18,9 +38,12 @@ $font-regular: 400;
 $font-light: 300;
 
 // Tamaño de fuente
-$xx-large: 70px;
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
 $x-large: 30px;
-$large: 18px;
+$large: 20px;
 $medium: 16px;
 $small: 14px;
 $x-small: 12px;

@@ -1,0 +1,38 @@
+.navbar {
+    padding: 10px;
+}
+.navigation-section__logo {
+    width: 20%;
+
+    img {
+        padding: 10px;
+    }
+}
+.navigation-section__left, .navigation-section__right {
+    display: inline-block;
+    width: 80%;
+}
+
+.navigation-section__list {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    float: right;
+}
+.navigation-section__item {
+    display: inline;
+    float: left;
+
+    a {
+        display: block;
+        padding: 10px;
+        font-family: $open-sans;
+        text-decoration: none;
+        color: $onix;
+
+        &:hover {
+            color: $spanish-gray;
+        }
+    }
+}
+
